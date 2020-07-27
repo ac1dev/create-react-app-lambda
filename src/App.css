@@ -34,3 +34,18 @@
 .email {
   color: lightblue;
 }
+
+.nav-ul {
+  list-style-type: none !important;
+}
+
+.nav-li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 1.25rem;
+}
