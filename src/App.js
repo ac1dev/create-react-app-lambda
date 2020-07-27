@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import "./App.css"
-import {Route, BrowserRouter as Router, Link} from "react-router-dom";
+import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
 import Home from "./pages/Home";
 import Support from "./pages/Support";
  
@@ -10,8 +10,10 @@ class App extends Component {
       <Router>
       <div className="App">
         <header className="App-header">
-          <Route path="/" exact component={Home} />
-          <Route path="/support" component={Support} />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/support" component={Support} />
+          </Switch>
           <br />
           <hr style={{width: '60%'}}/>
           <nav>
