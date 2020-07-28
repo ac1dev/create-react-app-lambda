@@ -17,11 +17,14 @@ class App extends Component {
           <br />
           <hr style={{width: '60%'}}/>
           <nav>
-          <ul class="nav-ul">
-            <li class="nav-li"><Link to="/">Home</Link></li>
-            <li class="nav-li"><Link to="support">Support</Link></li>
-          </ul>
-        </nav>
+            <ul class="nav-ul">
+              <li class="nav-li"><Link to="/">Home</Link></li>
+              <li class="nav-li"><Link to="support">Support</Link></li>
+            </ul>
+          </nav>
+          <br />
+          <br />
+          <h6>©2020 Aladin Bilalagic</h6>
           </header>
       </div>
       </Router>

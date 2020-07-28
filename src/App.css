@@ -35,16 +35,16 @@
   color: lightblue;
 }
 
-.nav-ul {
+ul {
   list-style-type: none !important;
 }
 
-.nav-li {
+li {
   display: inline-block;
   margin-right: 2em;
 }
 
-.nav-li a {
+li a {
   text-decoration: none;
   color: lightblue;
   font-size: 1.25rem;
